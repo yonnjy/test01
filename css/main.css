@@ -1,0 +1,89 @@
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sec {
+    padding: 120px 0;
+}
+
+.test01 .tit_box {
+    margin: 0 0 30px 0;
+}
+
+.test01 .tit_box h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.test01 .tit_box p {
+    font-weight: 300;
+}
+
+.test01 ul {
+    display: flex;
+    gap: 30px;
+}
+
+.test01 ul>li {
+    flex: 1;
+}
+
+.test01 .img_box {
+    margin: 0 0 20px 0;
+}
+
+.test01 .txt_box {
+    text-align: center;
+}
+
+.test01 .txt_box strong {
+    font-weight: 500;
+}
+
+.test02 .bg_box {
+    position: relative;
+    height: 100vh;
+    background: url(../images/mainvisual03.jpg) no-repeat center center/cover;
+}
+
+.test02 .list_box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1530px;
+    height: 150px;
+    margin: 0 0 0 auto;
+    text-align: center;
+    background: #ddd;
+}
+
+.test02 .list_box ul {
+    display: flex;
+    gap: 50px;
+    padding: 0 50px;
+}
+
+.test02 .list_box ul>li {
+    justify-content: space-between;
+    line-height: 150px;
+}
+
+.test03 .img_box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #eee;
+}
+
+.test03 .img_box .txt {
+    padding: 50px 30px;
+}
+
+.test03 .img_box strong {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
